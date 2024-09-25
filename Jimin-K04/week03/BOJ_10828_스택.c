@@ -42,7 +42,7 @@ int main(void)
 	}
 }
 
-void push(int X) //stack 에 수를 push 했을때 top 을 1씩 늘려가면서 해당 인덱스에 저장
+void push(int X) //stack 에 수를 push 했을때 top 을 1씩 늘려가면서 해당 인덱스에 저장!
 {
 	stack[++top] = X;
 }
